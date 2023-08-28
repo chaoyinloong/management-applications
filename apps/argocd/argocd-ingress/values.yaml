@@ -1,0 +1,6 @@
+ingress:
+  enabled: false
+  hostname: argocd.example.com
+  clusterIssuer: letsencrypt-prod
+  tls:
+    enabled: false

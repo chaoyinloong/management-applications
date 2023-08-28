@@ -1,0 +1,5 @@
+ingress:
+  enabled: true
+  hostname: argocd.example.com
+  tls:
+    enabled: true

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: argocd-ingress
+description: A Helm chart to deploy an Ingress record for an ArgoCD installation
+type: application
+version: 0.1.1
+appVersion: "1.16.0"
