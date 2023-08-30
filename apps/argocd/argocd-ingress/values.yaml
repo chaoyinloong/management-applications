@@ -1,6 +1,6 @@
 ingress:
   enabled: true
-  hostname: 172-104-37-167.ip.linodeusercontent.com
+  hostname: argocd.infotech-asia.com
   clusterIssuer: letsencrypt-prod
   tls:
     enabled: true
