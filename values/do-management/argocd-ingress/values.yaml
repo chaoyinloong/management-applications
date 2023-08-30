@@ -1,5 +1,5 @@
 ingress:
   enabled: true
-  hostname: argocd.example.com
+  hostname: 172-104-37-167.ip.linodeusercontent.com
   tls:
     enabled: true
