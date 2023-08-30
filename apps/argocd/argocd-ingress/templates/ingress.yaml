@@ -10,6 +10,8 @@ metadata:
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
     kubernetes.io/tls-acme: "true"
 spec:
+  externalIPs:
+    - 172.104.37.167
   ingressClassName: "nginx"
   rules:
   - host: {{ .Values.ingress.hostname }}
