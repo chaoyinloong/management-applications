@@ -1,5 +1,0 @@
-ingress:
-  enabled: true
-  hostname: argocd.infotech-asia.com
-  tls:
-    enabled: true
